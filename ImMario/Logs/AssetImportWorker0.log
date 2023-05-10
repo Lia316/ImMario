@@ -284,3 +284,45 @@ Received Import Request.
   path: Assets/Model/map_all.fbx
   artifactKey: Guid(dc5a3422b49154fe58a5ace28b06f7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Model/map_all.fbx using Guid(dc5a3422b49154fe58a5ace28b06f7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45e23183497d97b588ee76789a98626') in 0.217620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 248.040454 seconds.
+  path: Assets/Model/Textures/1-1/cloud.png
+  artifactKey: Guid(5ac5a878253584448b68f8b4b162f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Textures/1-1/cloud.png using Guid(5ac5a878253584448b68f8b4b162f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9b3f03459cc920f42db19a2278b248') in 0.054984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.270060 seconds.
+  path: Assets/Model/Textures/1-1/cloud.png
+  artifactKey: Guid(5ac5a878253584448b68f8b4b162f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Textures/1-1/cloud.png using Guid(5ac5a878253584448b68f8b4b162f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008cf6ebfde63bc2485d600c97171e90') in 0.006480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.312501 seconds.
+  path: Assets/Model/Textures/1-1/cloud.png
+  artifactKey: Guid(5ac5a878253584448b68f8b4b162f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Textures/1-1/cloud.png using Guid(5ac5a878253584448b68f8b4b162f78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d554b036b7795e7c8d5f3f4a8650ff') in 0.006358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.114229 seconds.
+  path: Assets/Model/Textures/1-1/cloud_front.png
+  artifactKey: Guid(cbecbfabc156140d193997b53e905e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Textures/1-1/cloud_front.png using Guid(cbecbfabc156140d193997b53e905e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441a60f9a0dbac111cfc65d28a3d8170') in 0.005612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.310035 seconds.
+  path: Assets/Model/Textures/1-1/sky.png
+  artifactKey: Guid(f0bb81d08e2e149d696df6b0421bab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Textures/1-1/sky.png using Guid(f0bb81d08e2e149d696df6b0421bab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373fec5f4ed95e8a8fa37d5c367b8b50') in 0.005152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.562500 seconds.
+  path: Assets/Model/Textures/1-1/sky.png
+  artifactKey: Guid(f0bb81d08e2e149d696df6b0421bab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Textures/1-1/sky.png using Guid(f0bb81d08e2e149d696df6b0421bab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9224b7b47ab60c7925f11f3c46cac1c6') in 0.005404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.850305 seconds.
+  path: Assets/Model/Textures/1-1/sky.png
+  artifactKey: Guid(f0bb81d08e2e149d696df6b0421bab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Textures/1-1/sky.png using Guid(f0bb81d08e2e149d696df6b0421bab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db37abd8f710e332b66fb8832444d15') in 0.005779 seconds 
