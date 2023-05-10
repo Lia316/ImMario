@@ -782,3 +782,69 @@ Received Import Request.
   path: Assets/Model/wood3.fbx
   artifactKey: Guid(3df5fa59bbfa240388c8cfa8d7dae208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Model/wood3.fbx using Guid(3df5fa59bbfa240388c8cfa8d7dae208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620b55836b11a16253abf54e9d06eaf3') in 0.017579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 403.672085 seconds.
+  path: Assets/Model/1-1
+  artifactKey: Guid(edd3f708311d44dd6a3972c0fa00742e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/1-1 using Guid(edd3f708311d44dd6a3972c0fa00742e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91233f6627103a12c786bd06edf1f1cb') in 0.000950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.534440 seconds.
+  path: Assets/Model/item
+  artifactKey: Guid(a80af086cb63a43558fec8840719f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/item using Guid(a80af086cb63a43558fec8840719f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a86841ba78d40de9397ea1bda57189c') in 0.000712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.235010 seconds.
+  path: Assets/Model/leaf.fbx
+  artifactKey: Guid(2454179fabc014129a2da6e7a2acfcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/leaf.fbx using Guid(2454179fabc014129a2da6e7a2acfcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6237f7f8e9e2d922e51975b87d7ea38') in 0.040539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.647005 seconds.
+  path: Assets/Model/Materials
+  artifactKey: Guid(0a84a7e8a7b4046a4b92871d11b47c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials using Guid(0a84a7e8a7b4046a4b92871d11b47c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac165e6ea9da20b920bf00342bf21b75') in 0.001014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.926726 seconds.
+  path: Assets/Model/Materials/1-1
+  artifactKey: Guid(8f039084a67e04ca8af3af03a786873b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/1-1 using Guid(8f039084a67e04ca8af3af03a786873b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c11fc427764c0bd86fc35823c2c138') in 0.000691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.318691 seconds.
+  path: Assets/Model/Materials/item
+  artifactKey: Guid(123fb02df97324e5d914782c5fed7e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/item using Guid(123fb02df97324e5d914782c5fed7e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fb3bcef7a49e39a8ab93e1ff057d2f') in 0.000665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.181127 seconds.
+  path: Assets/Model/leaf.fbx
+  artifactKey: Guid(2454179fabc014129a2da6e7a2acfcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/leaf.fbx using Guid(2454179fabc014129a2da6e7a2acfcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488e6f9817ebab9bf0911bc23243a59a') in 0.016477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.103101 seconds.
+  path: Assets/Model/mushroom.fbx
+  artifactKey: Guid(9902645cc9d254ec4a42ec9beaf794e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/mushroom.fbx using Guid(9902645cc9d254ec4a42ec9beaf794e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398686ad4d10e3e40f7639812aa9effc') in 0.017757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.677178 seconds.
+  path: Assets/Model/Materials/item/leaf.mat
+  artifactKey: Guid(043c0bccbfc4d4970b90f8877b7d09e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/item/leaf.mat using Guid(043c0bccbfc4d4970b90f8877b7d09e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a874c90147822c144586d1d0ec8b1db3') in 0.006023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.889194 seconds.
+  path: Assets/Model/Materials/item/leaf.mat
+  artifactKey: Guid(043c0bccbfc4d4970b90f8877b7d09e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/item/leaf.mat using Guid(043c0bccbfc4d4970b90f8877b7d09e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613eefe58af4ba217323054a10d47dca') in 0.007156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.190386 seconds.
+  path: Assets/Model/leaf.fbx
+  artifactKey: Guid(2454179fabc014129a2da6e7a2acfcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/leaf.fbx using Guid(2454179fabc014129a2da6e7a2acfcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c69807b349bcce6d13c0309f1fde036') in 0.017152 seconds 

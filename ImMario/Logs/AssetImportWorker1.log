@@ -590,3 +590,27 @@ Received Import Request.
   path: Assets/Model/wood2.fbx
   artifactKey: Guid(1a83b33f8d97d4726b42f2f0c0b66abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Model/wood2.fbx using Guid(1a83b33f8d97d4726b42f2f0c0b66abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70814dda7d709a24008676d4aaa96c4') in 0.022269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 474.374132 seconds.
+  path: Assets/Model/mushroom.fbx
+  artifactKey: Guid(9902645cc9d254ec4a42ec9beaf794e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/mushroom.fbx using Guid(9902645cc9d254ec4a42ec9beaf794e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1642f490d579e38f3638656394aa53b') in 0.039707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.907439 seconds.
+  path: Assets/Model/Materials/item/mushroom.mat
+  artifactKey: Guid(a9fb7be0584c9424fa01d8c4fa79a283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/item/mushroom.mat using Guid(a9fb7be0584c9424fa01d8c4fa79a283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afce174d59ac8a4dbf4dfde558e08b5') in 0.006401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.888568 seconds.
+  path: Assets/Model/Materials/item/mushroom.mat
+  artifactKey: Guid(a9fb7be0584c9424fa01d8c4fa79a283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/item/mushroom.mat using Guid(a9fb7be0584c9424fa01d8c4fa79a283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4174f0789ceaf06d721757ec6e2c4619') in 0.007000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.190685 seconds.
+  path: Assets/Model/mushroom.fbx
+  artifactKey: Guid(9902645cc9d254ec4a42ec9beaf794e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/mushroom.fbx using Guid(9902645cc9d254ec4a42ec9beaf794e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e762549cb6e6b2469f6078a39b8b87') in 0.017239 seconds 
