@@ -1,30 +1,23 @@
-Unity Editor version:    2021.3.9f1 (ad3870b89536)
-Branch:                  2021.3/staging
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 13.3.1 (a) (Build 22E772610a)
-Darwin version:          22.4.0
-Architecture:            arm64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: YES
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 7865 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-/Users/gimjigyeong/Desktop/Developer/POSTECH/Unity/ImMario/ImMario
+C:/Users/406ks/Unity/ImMario/ImMario
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55911
-Successfully changed project path to: /Users/gimjigyeong/Desktop/Developer/POSTECH/Unity/ImMario/ImMario
-/Users/gimjigyeong/Desktop/Developer/POSTECH/Unity/ImMario/ImMario
+50356
+Successfully changed project path to: C:/Users/406ks/Unity/ImMario/ImMario
+C:/Users/406ks/Unity/ImMario/ImMario
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,149 +47,213 @@ Successfully changed project path to: /Users/gimjigyeong/Desktop/Developer/POSTE
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 86.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/gimjigyeong/Desktop/Developer/POSTECH/Unity/ImMario/ImMario/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/406ks/Unity/ImMario/ImMario/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 Pro (high power)
-Metal devices available: 1
-0: Apple M1 Pro (high power)
-Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3932 MB
+    Driver:   27.20.100.9415
 Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
-Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56439
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.000747 seconds.
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-[usbmuxd] Send listen message
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 86.25 ms, found 2 plugins.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005361 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 92.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.542 seconds
+- Completed reload, in  0.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (542ms)
-		BeginReloadAssembly (38ms)
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (423ms)
-			LoadAssemblies (37ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (653ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (285ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (399ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (77ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (86ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				InitializePlatformSupportModulesInManaged (128ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002137 seconds.
+Registered in 0.010025 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/gimjigyeong/Desktop/Developer/POSTECH/Unity/ImMario/ImMario/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/gimjigyeong/Desktop/Developer/POSTECH/Unity/ImMario/ImMario/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\406ks\Unity\ImMario\ImMario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\406ks\Unity\ImMario\ImMario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.781 seconds
+- Completed reload, in  1.640 seconds
 Domain Reload Profiling:
-	ReloadAssembly (781ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (315ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (624ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (1078ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (210ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (282ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (449ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (170ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (83.2 KB). Loaded Objects now: 3839.
-Memory consumption went from 122.5 MB to 122.4 MB.
-Total: 2.928042 ms (FindLiveObjects: 0.130250 ms CreateObjectMapping: 0.047709 ms MarkObjects: 2.660125 ms  DeleteObjects: 0.089333 ms)
+Unloading 27 unused Assets / (111.5 KB). Loaded Objects now: 3859.
+Memory consumption went from 137.3 MB to 137.2 MB.
+Total: 2.927300 ms (FindLiveObjects: 0.302500 ms CreateObjectMapping: 0.123000 ms MarkObjects: 2.384100 ms  DeleteObjects: 0.116600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 182671.160908 seconds.
-  path: Assets/Model/Materials/1-1/bg_tree.mat
-  artifactKey: Guid(4b3585c9b2beb4daba56c8e0df7e7a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Materials/1-1/bg_tree.mat using Guid(4b3585c9b2beb4daba56c8e0df7e7a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4feea306a4d5a70f0d44c7d8b71188c3') in 0.160609 seconds 
+  Time since last request: 1933.463287 seconds.
+  path: Assets/Model/Textures/1-1
+  artifactKey: Guid(d5b3b5c8c55ee490d966848843a5fe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Textures/1-1 using Guid(d5b3b5c8c55ee490d966848843a5fe9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9cd34ea57723e4d849638f1c2a3c16') in 0.022228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Model/Materials/1-1/block_blue.mat
-  artifactKey: Guid(b70f33c2553f94930a39ec36e44d70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Materials/1-1/block_blue.mat using Guid(b70f33c2553f94930a39ec36e44d70fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368f9ff476e1c722a0449ec3cb5d536b') in 0.008522 seconds 
+  Time since last request: 535.941141 seconds.
+  path: Assets/Model/Materials/props/rotate_symbol.mat
+  artifactKey: Guid(5c485e065278c9c47a7462b4fd972e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/rotate_symbol.mat using Guid(5c485e065278c9c47a7462b4fd972e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dbefa496ae4b8b59a54f10142fb8ec') in 0.182710 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.149101 seconds.
-  path: Assets/Model/Materials/1-1/sand_blend_1.mat
-  artifactKey: Guid(9e76b58e152094c9c80d4e04fb8560b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Materials/1-1/sand_blend_1.mat using Guid(9e76b58e152094c9c80d4e04fb8560b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bf433e3b75ebf82a0e09e71821ac56') in 0.011918 seconds 
+  Time since last request: 83.951143 seconds.
+  path: Assets/Model/Materials/props/grass_blend_1.mat
+  artifactKey: Guid(c2f53ad9b3091264ca3ff27266679aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/grass_blend_1.mat using Guid(c2f53ad9b3091264ca3ff27266679aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f88ddabd7401571caac585dd372b1b4') in 0.034522 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.997650 seconds.
-  path: Assets/Model/Materials/1-1/sand_blend_3.mat
-  artifactKey: Guid(b3d687c18f1ef42e9971927acf53ad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Materials/1-1/sand_blend_3.mat using Guid(b3d687c18f1ef42e9971927acf53ad0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94c026c93177636e7938fa31f4ec80f') in 0.014608 seconds 
+  Time since last request: 54.336090 seconds.
+  path: Assets/Model/Materials/props/questionmark.mat
+  artifactKey: Guid(3676d4c7e74cfdb42af4798382dea050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/questionmark.mat using Guid(3676d4c7e74cfdb42af4798382dea050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4640757d3e74e0e0e84cab93a1b5412f') in 0.035077 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Model/Materials/1-1/sky.mat
-  artifactKey: Guid(12f79e6882c294a09a559c18109483bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/Materials/1-1/sky.mat using Guid(12f79e6882c294a09a559c18109483bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4fac062e136754cf7878112f5f5a9b') in 0.008379 seconds 
+  Time since last request: 424.932657 seconds.
+  path: Assets/Model/Materials/props/questionmark 1.mat
+  artifactKey: Guid(d2f36e179d7a94447a9c6afaa096f836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/questionmark 1.mat using Guid(d2f36e179d7a94447a9c6afaa096f836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8fd2ccc32a5d3068e80fabdcee5661') in 0.033088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 238.628831 seconds.
+  path: Assets/Model/Materials/props/brick 5.mat
+  artifactKey: Guid(074cda0d0c721164c857db43f76efad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/brick 5.mat using Guid(074cda0d0c721164c857db43f76efad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d2f392fb03db23a33259686b0a74ac') in 0.023585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Model/Materials/props/brick 6.mat
+  artifactKey: Guid(30be9ba758853844cb7fb1d4c0583264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/brick 6.mat using Guid(30be9ba758853844cb7fb1d4c0583264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ba5526daa9431ecb6c94ed26f2fe26') in 0.025453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.082578 seconds.
+  path: Assets/Model/Materials/props/brick 2.mat
+  artifactKey: Guid(e7e5adba0b9aed3498301b485dcdf82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/brick 2.mat using Guid(e7e5adba0b9aed3498301b485dcdf82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c14e2408307d00a7ca0f724e6e8d3b0') in 0.037820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 884.250283 seconds.
+  path: Assets/Model/Materials/props/brick 1.mat
+  artifactKey: Guid(01808cd2bd879444bb27b39788865178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/brick 1.mat using Guid(01808cd2bd879444bb27b39788865178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab78fdf39363486a8e87edc6f9b3061') in 0.052743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Model/Materials/props/rotate_symbol.mat
+  artifactKey: Guid(5c485e065278c9c47a7462b4fd972e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/rotate_symbol.mat using Guid(5c485e065278c9c47a7462b4fd972e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0842d701ef5d94715e7ac5fef49db1') in 0.036273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Model/Materials/props/questionmark.mat
+  artifactKey: Guid(3676d4c7e74cfdb42af4798382dea050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/questionmark.mat using Guid(3676d4c7e74cfdb42af4798382dea050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b296fbe56dfaa5cd312eb272aa01876') in 0.046618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Model/Materials/props/brick.mat
+  artifactKey: Guid(e283eee1d590d5243a7afd716cbdfda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/brick.mat using Guid(e283eee1d590d5243a7afd716cbdfda4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72900ff0837d7b7430dc54be0d1f10d2') in 0.030020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Model/Materials/props/brick 4.mat
+  artifactKey: Guid(fc13b163c232a664dadaa5e0a2430d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/brick 4.mat using Guid(fc13b163c232a664dadaa5e0a2430d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8d74a8f991c33d90ee8093b07a8ff2') in 0.034383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Model/Materials/props/questionmark 1.mat
+  artifactKey: Guid(d2f36e179d7a94447a9c6afaa096f836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/questionmark 1.mat using Guid(d2f36e179d7a94447a9c6afaa096f836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf8ebbd68f495f50d7e5dd85c200df0') in 0.028319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Model/Materials/props/brick 7.mat
+  artifactKey: Guid(719279898849d224ea2f1f69d2b51c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/brick 7.mat using Guid(719279898849d224ea2f1f69d2b51c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a3e8a9bd1b965850cbc16cc42308a3') in 0.031486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Model/Materials/props/grass_blend_1.mat
+  artifactKey: Guid(c2f53ad9b3091264ca3ff27266679aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Materials/props/grass_blend_1.mat using Guid(c2f53ad9b3091264ca3ff27266679aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9479b6c04ac5bc1c4903db84efe1d10e') in 0.043344 seconds 
