@@ -5474,3 +5474,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23399.903743 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ec19a9bb5cbf8bdad0e1633e175a9e') in 0.091820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.573258 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39d3b365ae06f4a5d582e5614ba55e') in 0.071236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.640219 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcfb6d959bd37e01ac232e185f238a7') in 0.563237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.031232 seconds.
+  path: Assets/Textures/cell_lightwarp_bright.png
+  artifactKey: Guid(1ac4ab56fd1d84cf2b3f407bd9fb81bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cell_lightwarp_bright.png using Guid(1ac4ab56fd1d84cf2b3f407bd9fb81bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5281dec9661a5f78e32e0f474c28bd76') in 0.006312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/cell_lightwarp_med.png
+  artifactKey: Guid(5b434b759150f47a38a55ab586169979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cell_lightwarp_med.png using Guid(5b434b759150f47a38a55ab586169979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deac5da642a5ca3dad71d05b5b6a6d37') in 0.004896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Textures/cell_lightwarp_dark.png
+  artifactKey: Guid(37844f7e413814eab89fd5491d348138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/cell_lightwarp_dark.png using Guid(37844f7e413814eab89fd5491d348138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4521735fa28418c017c50dbc7146c93') in 0.006150 seconds 
