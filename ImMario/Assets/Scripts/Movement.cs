@@ -13,10 +13,16 @@ public class Movement : MonoBehaviour
     // 수직 속도
     float yVelocity = 0;
 
+    public CoinManager CoinEvent;
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        CoinEvent = GameObject.Find("EventSystem").GetComponent<CoinManager>();
+
+        // Player 위치 초기화
+        transform.position = new Vector3(2300, -600, -1200);
     }
 
     // Update is called once per frame
@@ -51,5 +57,25 @@ public class Movement : MonoBehaviour
 
         // 실제 방향 이동
         controller.Move(dir * speed * Time.deltaTime);
+
+        // 낙사
+        if(this.transform.position.y < -900)
+        {
+            // Life >= 1이면 Life -= 1, Respawn
+            // 리스폰 화면(Canvas_Respawn 수정)
+            // Player 위치 초기화
+            transform.position = new Vector3(2300, -600, -1200);
+            yVelocity = 0;
+
+            // Life == 0이면 Game Over
+        }
+    }
+
+    void TriggerCollider(Collider collision)
+    {
+        if (collision.gameObject.CompareTag("Coin"))
+        {
+            CoinEvent.coin_add();
+        }
     }
 }
