@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using Text = TMPro.TextMeshProUGUI;
 public class CoinManager : MonoBehaviour
 {
     public Text Coin_text;

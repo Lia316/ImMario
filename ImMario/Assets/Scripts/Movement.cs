@@ -71,7 +71,7 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void TriggerCollider(Collider collision)
+    void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
