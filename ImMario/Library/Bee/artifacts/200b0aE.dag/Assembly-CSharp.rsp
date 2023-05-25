@@ -361,6 +361,7 @@
 "Assets/Scripts/EnemyCollide.cs"
 "Assets/Scripts/EnemyFollow.cs"
 "Assets/Scripts/EnemyStep.cs"
+"Assets/Scripts/FireBallMove.cs"
 "Assets/Scripts/FlowerAppear.cs"
 "Assets/Scripts/FlowerGet.cs"
 "Assets/Scripts/Movement.cs"
