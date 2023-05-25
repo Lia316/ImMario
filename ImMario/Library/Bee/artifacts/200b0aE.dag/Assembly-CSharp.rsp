@@ -361,6 +361,7 @@
 "Assets/Scripts/EnemyCollide.cs"
 "Assets/Scripts/EnemyFollow.cs"
 "Assets/Scripts/EnemyStep.cs"
+"Assets/Scripts/FlowerGet.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/SetActive.cs"
 -langversion:9.0
