@@ -12,15 +12,23 @@ public class FireBallMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        InitialSetting();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {        
+        Fire();
+    }
+
+    void InitialSetting() {
         rb = GetComponent<Rigidbody>();
         rb.AddRelativeForce(Vector3.left * 2000.0f);
 
         Destroy(this.gameObject, 5.0f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
+    void Fire() {
         Vector3 gravity = globalGravity * gravityScale * Vector3.up;
         rb.AddForce(gravity, ForceMode.Acceleration);
         rb.AddForce(Vector3.left * thrust);
