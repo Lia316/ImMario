@@ -25,6 +25,7 @@ public class FlowerGet : MonoBehaviour
         if(collision.collider.CompareTag("Flower"))
         {
             print("collision with flower!");
+            AudioManager.Instance.PlaySFX("useitem");
             Destroy(collision.gameObject);
             playerHand.SetActive(true);
         }

@@ -20,6 +20,7 @@ public class EnemyCollide : MonoBehaviour
     {
         if(collision.collider.CompareTag("Enemy"))
         {
+            AudioManager.Instance.PlaySFX("mariodie");
             Time.timeScale = 0;
             print("body collide with Enemy"); // TODO: replace with death action
         }

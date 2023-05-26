@@ -20,6 +20,7 @@ public class CoinController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            AudioManager.Instance.PlaySFX("coin");
             GameObject.Destroy(this.gameObject);
         }
     }

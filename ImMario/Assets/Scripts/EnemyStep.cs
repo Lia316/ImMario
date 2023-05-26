@@ -20,6 +20,7 @@ public class EnemyStep : MonoBehaviour
     {
         if(collision.collider.CompareTag("Enemy"))
         {
+            AudioManager.Instance.PlaySFX("stomp");
             Destroy(collision.gameObject);
             print("foot collide with Enemy");
         }

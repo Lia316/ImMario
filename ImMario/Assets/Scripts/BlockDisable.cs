@@ -26,6 +26,7 @@ public class BlockDisable : MonoBehaviour
         if(isBoxEnabled && collision.collider.CompareTag("Head"))
         {
             print("collision with box & head!");
+            AudioManager.Instance.PlaySFX("breakblock");
 
             var mats = rend.materials;
 

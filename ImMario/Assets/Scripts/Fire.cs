@@ -18,6 +18,7 @@ public class Fire : MonoBehaviour
     {
         bool isFire = Input.GetMouseButtonDown(0);
         if (isFire) {
+            AudioManager.Instance.PlaySFX("fireball");
             GameObject newFireball = Instantiate(fireball, transform.position, Camera.main.transform.rotation);
         }
     }

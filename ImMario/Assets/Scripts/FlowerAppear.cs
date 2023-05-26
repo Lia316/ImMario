@@ -21,6 +21,7 @@ public class FlowerAppear : MonoBehaviour
     {
         if (!isBoxEnabled && (newHeight <= moveHeight))
         {
+            AudioManager.Instance.PlaySFX("powerupappears");
             newHeight += Time.deltaTime * animationSpeed;
             item.position = new Vector3(item.position.x, item.position.y + newHeight, item.position.z);
         }

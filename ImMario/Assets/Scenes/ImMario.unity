@@ -897,6 +897,10 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 36c4221cea1cc4b42842d8758a5026ed, type: 3}
   - name: worldclear
     clip: {fileID: 8300000, guid: 2392aab3edc4c4a84aed59963e15ab74, type: 3}
+  - name: breakblock
+    clip: {fileID: 8300000, guid: e8bc71d06516e4de9a6095be4456ac5a, type: 3}
+  - name: useitem
+    clip: {fileID: 8300000, guid: 94a88fcee49a34c0e8a844ecd2554004, type: 3}
   musicSource: {fileID: 498708179}
   sfxSource: {fileID: 1035308888}
 --- !u!4 &531618640
