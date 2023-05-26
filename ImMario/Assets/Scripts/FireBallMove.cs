@@ -5,14 +5,21 @@ using UnityEngine;
 public class FireBallMove : MonoBehaviour
 {
     public float thrust = 2000.0f;
-    private Rigidbody rb;
     public float gravityScale = 1.0f; 
     public static float globalGravity = -9.81f;
+
+    private Rigidbody rb;
+    private Transform trans;
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        InitialSetting();
+        rb = GetComponent<Rigidbody>();
+        trans = GetComponent<Transform>();
+
+        rb.AddRelativeForce(trans.forward * 2000.0f);
+        Destroy(this.gameObject, 5.0f);
     }
 
     // Update is called once per frame
@@ -21,21 +28,9 @@ public class FireBallMove : MonoBehaviour
         Fire();
     }
 
-    void InitialSetting() {
-        rb = GetComponent<Rigidbody>();
-        rb.AddRelativeForce(Vector3.left * 2000.0f);
-
-        Destroy(this.gameObject, 5.0f);
-    }
-
     void Fire() {
         Vector3 gravity = globalGravity * gravityScale * Vector3.up;
         rb.AddForce(gravity, ForceMode.Acceleration);
-        rb.AddForce(Vector3.left * thrust);
-
-        // if ball bounce off backward, destroy it
-        if (rb.velocity.x > 0.0f) {
-            Destroy(gameObject);
-        }
+        rb.AddForce(trans.forward * thrust);
     }
 }

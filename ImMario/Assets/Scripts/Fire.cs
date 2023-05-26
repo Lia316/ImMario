@@ -16,10 +16,9 @@ public class Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool isFire = Input.GetButton("Fire1");
+        bool isFire = Input.GetMouseButtonDown(0);
         if (isFire) {
-            Vector3 rotate = new Vector3(0,0,0);
-            GameObject newFireball = Instantiate(fireball, transform.position, Quaternion.LookRotation(rotate));
+            GameObject newFireball = Instantiate(fireball, transform.position, Camera.main.transform.rotation);
         }
     }
 }
