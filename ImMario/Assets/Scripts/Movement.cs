@@ -50,6 +50,7 @@ public class Movement : MonoBehaviour
 
         // 점프 구현
         if(ARAVRInput.GetDown(ARAVRInput.Button.Two, ARAVRInput.Controller.RTouch)) {
+            AudioManager.Instance.PlaySFX("jump");
             yVelocity = jumpPower;
         }
 
