@@ -16,7 +16,7 @@ public class SetActive : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ARAVRInput.GetDown(ARAVRInput.Button.One))
+        if (ARAVRInput.GetDown(ARAVRInput.Button.IndexTrigger))
         {
             if (state == true)
             {

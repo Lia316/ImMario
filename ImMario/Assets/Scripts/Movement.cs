@@ -8,10 +8,8 @@ public class Movement : MonoBehaviour
 
     public float speed = 150.0f;
     public float gravity = -20f;
-    // jump
-    public float jumpPower = 8f;
-    // 수직 속도
-    float yVelocity = 0;
+    public float jumpPower = 8f;    // jump
+    float yVelocity = 0;            // 수직 속도
 
     public CoinManager CoinEvent;
 
@@ -71,12 +69,12 @@ public class Movement : MonoBehaviour
             // Life == 0이면 Game Over
         }
     }
-
+/*
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
             CoinEvent.coin_add();
         }
-    }
+    }*/
 }
