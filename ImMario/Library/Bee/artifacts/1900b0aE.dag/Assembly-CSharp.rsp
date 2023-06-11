@@ -370,11 +370,14 @@
 "Assets/Scripts/Example_SetActive.cs"
 "Assets/Scripts/Fire.cs"
 "Assets/Scripts/FireBallMove.cs"
+"Assets/Scripts/FlagMidController.cs"
 "Assets/Scripts/FlowerAppear.cs"
 "Assets/Scripts/FlowerGet.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/GameStartManager.cs"
 "Assets/Scripts/LifeManager.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/RespawnManager.cs"
 "Assets/Scripts/Sound.cs"
 -langversion:9.0
 

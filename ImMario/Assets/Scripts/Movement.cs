@@ -5,8 +5,9 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private CharacterController controller;
-    public Canvas_GameStart CanvasGameStart;
+    public GameStartManager GameStartEvent;
     public LifeManager LifeEvent;
+    public RespawnManager RespawnEvent;
 
     public float speed = 150.0f;
     public float gravity = -20f;
@@ -17,14 +18,20 @@ public class Movement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        CanvasGameStart = GameObject.Find("Canvas_GameStart").GetComponent<Canvas_GameStart>();
+        GameStartEvent = GameObject.Find("EventSystem").GetComponent<GameStartManager>();
         LifeEvent = GameObject.Find("EventSystem").GetComponent<LifeManager>();
+        RespawnEvent = GameObject.Find("EventSystem").GetComponent<RespawnManager>();
 
         // Player 위치 초기화
-        if (CanvasGameStart.GameStart == false)
+        if (GameStartEvent.GameStart == false)
             transform.position = new Vector3(2300, 1000, -1200);
         else
-            transform.position = new Vector3(2300, -600, -1200);
+        {
+            if(RespawnEvent.midsave == false)
+                transform.position = new Vector3(2300, -600, -1200);
+            else
+                transform.position = new Vector3(-400, -49, -2450);
+        }
     }
 
     // Update is called once per frame
@@ -64,15 +71,13 @@ public class Movement : MonoBehaviour
         // 낙사
         if(this.transform.position.y < -900)
         {
-            // Life >= 1이면 Life -= 1, Respawn
-            // 리스폰 화면(Canvas_Respawn 수정)
+            // Life 감소
             LifeEvent.death();
 
+            /*
             // Player 위치 초기화
             transform.position = new Vector3(2300, -600, -1200);
-            yVelocity = 0;
-
-            // Life == 0이면 Game Over
+            yVelocity = 0;*/
         }
     }
 }
