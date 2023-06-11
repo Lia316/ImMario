@@ -11,13 +11,13 @@ public class Movement : MonoBehaviour
     public float jumpPower = 8f;    // jump
     float yVelocity = 0;            // 수직 속도
 
-    public CoinManager CoinEvent;
+//    public CoinManager CoinEvent;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        CoinEvent = GameObject.Find("EventSystem").GetComponent<CoinManager>();
+//        CoinEvent = GameObject.Find("EventSystem").GetComponent<CoinManager>();
 
         // Player 위치 초기화
         transform.position = new Vector3(2300, -600, -1200);

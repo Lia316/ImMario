@@ -358,6 +358,7 @@
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/BlockDisable.cs"
 "Assets/Scripts/CameraRotate.cs"
+"Assets/Scripts/CoinCollide.cs"
 "Assets/Scripts/CoinController.cs"
 "Assets/Scripts/CoinManager.cs"
 "Assets/Scripts/EnemyCollide.cs"
