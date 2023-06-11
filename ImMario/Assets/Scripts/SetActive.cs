@@ -29,6 +29,5 @@ public class SetActive : MonoBehaviour
                 state = true;
             }
         }
-
     }
 }

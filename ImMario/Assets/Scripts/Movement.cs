@@ -5,27 +5,34 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private CharacterController controller;
+    public Canvas_GameStart CanvasGameStart;
 
     public float speed = 150.0f;
     public float gravity = -20f;
     public float jumpPower = 8f;    // jump
     float yVelocity = 0;            // 수직 속도
 
-//    public CoinManager CoinEvent;
-
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
-//        CoinEvent = GameObject.Find("EventSystem").GetComponent<CoinManager>();
+        CanvasGameStart = GameObject.Find("Canvas_GameStart").GetComponent<Canvas_GameStart>();
 
         // Player 위치 초기화
-        transform.position = new Vector3(2300, -600, -1200);
+        if (CanvasGameStart.GameStart == false)
+            transform.position = new Vector3(2300, 1000, -1200);
+        else
+            transform.position = new Vector3(2300, -600, -1200);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (CanvasGameStart.GameStart == false)
+        {
+
+        }
+
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
@@ -69,12 +76,4 @@ public class Movement : MonoBehaviour
             // Life == 0이면 Game Over
         }
     }
-/*
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Coin"))
-        {
-            CoinEvent.coin_add();
-        }
-    }*/
 }
