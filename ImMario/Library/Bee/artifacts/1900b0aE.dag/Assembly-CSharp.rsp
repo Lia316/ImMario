@@ -367,13 +367,14 @@
 "Assets/Scripts/EnemyCollide.cs"
 "Assets/Scripts/EnemyFollow.cs"
 "Assets/Scripts/EnemyStep.cs"
-"Assets/Scripts/EventSystem.cs"
+"Assets/Scripts/Example_SetActive.cs"
 "Assets/Scripts/Fire.cs"
 "Assets/Scripts/FireBallMove.cs"
 "Assets/Scripts/FlowerAppear.cs"
 "Assets/Scripts/FlowerGet.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/LifeManager.cs"
 "Assets/Scripts/Movement.cs"
-"Assets/Scripts/SetActive.cs"
 "Assets/Scripts/Sound.cs"
 -langversion:9.0
 

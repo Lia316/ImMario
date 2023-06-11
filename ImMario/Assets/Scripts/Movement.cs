@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     private CharacterController controller;
     public Canvas_GameStart CanvasGameStart;
+    public LifeManager LifeEvent;
 
     public float speed = 150.0f;
     public float gravity = -20f;
@@ -17,6 +18,7 @@ public class Movement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         CanvasGameStart = GameObject.Find("Canvas_GameStart").GetComponent<Canvas_GameStart>();
+        LifeEvent = GameObject.Find("EventSystem").GetComponent<LifeManager>();
 
         // Player 위치 초기화
         if (CanvasGameStart.GameStart == false)
@@ -28,11 +30,6 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (CanvasGameStart.GameStart == false)
-        {
-
-        }
-
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
@@ -69,6 +66,8 @@ public class Movement : MonoBehaviour
         {
             // Life >= 1이면 Life -= 1, Respawn
             // 리스폰 화면(Canvas_Respawn 수정)
+            LifeEvent.death();
+
             // Player 위치 초기화
             transform.position = new Vector3(2300, -600, -1200);
             yVelocity = 0;

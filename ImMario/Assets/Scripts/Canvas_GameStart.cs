@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Canvas_GameStart : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class Canvas_GameStart : MonoBehaviour
             Time.timeScale = 0;
             gameObject.SetActive(true);
         }
+        else
+            gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -22,8 +25,9 @@ public class Canvas_GameStart : MonoBehaviour
         {
             GameStart = true;
             Time.timeScale = 1;
-            GameObject.Find("Player").GetComponent<Movement>().transform.position = transform.position = new Vector3(2300, -600, -1200);
-            gameObject.SetActive(false);
+//          GameObject.Find("Player").GetComponent<Movement>().transform.position = transform.position = new Vector3(2300, -600, -1200);
+//          gameObject.SetActive(false);
+            SceneManager.LoadScene("ImMario");
         }
         if (ARAVRInput.GetDown(ARAVRInput.Button.Thumbstick))
         {
