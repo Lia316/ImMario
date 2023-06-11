@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class Canvas_Status : MonoBehaviour
 {
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+
+    }
+
     private void Awake()
     {
         var canvas = FindObjectsOfType<Canvas_Status>();

@@ -5,17 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class Canvas_GameStart : MonoBehaviour
 {
-    public bool GameStart = false;
+    public GameStartManager GameStartEvent;
 
     void Start()
     {
-        if (GameStart == false)
+        GameStartEvent = GameObject.Find("EventSystem").GetComponent<GameStartManager>();
+
+        if (GameStartEvent.GameStart == false)
         {
-            Time.timeScale = 0;
             gameObject.SetActive(true);
         }
         else
-            gameObject.SetActive(false);
+            GameObject.Destroy(this.gameObject);
     }
 
     // Update is called once per frame
@@ -23,27 +24,14 @@ public class Canvas_GameStart : MonoBehaviour
     {
         if (ARAVRInput.GetDown(ARAVRInput.Button.HandTrigger))
         {
-            GameStart = true;
+            GameStartEvent.GameStart = true;
             Time.timeScale = 1;
-//          GameObject.Find("Player").GetComponent<Movement>().transform.position = transform.position = new Vector3(2300, -600, -1200);
-//          gameObject.SetActive(false);
+
             SceneManager.LoadScene("ImMario");
         }
         if (ARAVRInput.GetDown(ARAVRInput.Button.Thumbstick))
         {
             Application.Quit();
-        }
-    }
-        private void Awake()
-    {
-        var canvas = FindObjectsOfType<Canvas_GameStart>();
-        if (canvas.Length == 1)
-        {
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
         }
     }
 }
