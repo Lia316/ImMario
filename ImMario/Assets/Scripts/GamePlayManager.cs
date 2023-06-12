@@ -14,16 +14,25 @@ public class GamePlayManager : MonoBehaviour
 
     public bool MidSave = false;   // Player와 mid flag가 collide -> true
 
-    public Text Coin_text;         // CoinManager
+    // CoinManager
+    public Text Coin_text;
     public int coin = 0;
 
-    public Text Life_text;         // LifeManager
+    // LifeManager
+//    public GameObject Respawn;
+//    public GameObject Pause;
+//    public Text Life_text1;
+    public Text Life_text;
     public int life = 3;
 
     // Start is called before the first frame update
     void Start()
     {
-
+/*        Respawn = GameObject.Find("Canvas_Respawn");
+        Pause = GameObject.Find("Canvas_Pause");
+        Coin_text = Pause.GetComponent<Text>();
+        Life_text1 = Respawn.GetComponent<Text>();
+        Life_text2 = Pause.GetComponent<Text>();*/
     }
 
     // Update is called once per frame
@@ -46,9 +55,23 @@ public class GamePlayManager : MonoBehaviour
 
         // Life 관리
         if (life > 0)
-            Life_text.text = "Life x" + life;
+        {
+/*            if (GameStart == false)
+                Life_text1.text = "";
+            else
+                Life_text1.text = "Life x" + life;*/
+
+            Life_text.text = "Life : " + life;
+        }
         else
-            Life_text.text = "Game Over";
+        {
+/*            Life_text1.text = "Game Over";
+            Life_text.text = "Life : 0";*/
+
+//            Life_text1.text = "";
+            Life_text.text = "";
+            GameOver = true;
+        }
     }
 
     public void coin_add()
@@ -66,4 +89,25 @@ public class GamePlayManager : MonoBehaviour
         life--;
         SceneManager.LoadScene("ImMario");
     }
+/*    void OnEnable()
+    {
+        // 씬 매니저의 sceneLoaded에 체인을 건다.
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // 체인을 걸어서 이 함수는 매 씬마다 호출된다.
+        print("GamePlayManager");
+        Respawn = GameObject.Find("Canvas_Respawn");
+        Pause = GameObject.Find("Canvas_Pause");
+        Coin_text = Pause.GetComponent<Text>();
+        Life_text1 = Respawn.GetComponent<Text>();
+        Life_text = Pause.GetComponent<Text>();
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }*/
 }

@@ -7,7 +7,10 @@ public class Movement : MonoBehaviour
     private CharacterController controller;
     public GamePlayManager GamePlayEvent;
 
-    public float speed = 150.0f;
+    // 리스폰 화면 나올 동안(3초) Player 움직임 정지
+//    float Timer;    int WaitTime;
+
+    public float speed = 150.0f; // 3초 후 150.0f로 Update
     public float gravity = -20f;
     public float jumpPower = 8f;    // jump
     float yVelocity = 0;            // 수직 속도
@@ -17,22 +20,35 @@ public class Movement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         GamePlayEvent = GameObject.Find("EventSystem").GetComponent<GamePlayManager>();
+        //        Timer = 0.0f;        WaitTime = 3;
 
         // Player 위치 초기화
         if (GamePlayEvent.GameStart == false)
             transform.position = new Vector3(2300, 1000, -1200);
         else
         {
-            if(GamePlayEvent.MidSave == false)
-                transform.position = new Vector3(2300, -600, -1200);
+            if (GamePlayEvent.MidSave == false)
+            {
+                print("Respawn Init");
+                transform.position = new Vector3(2300, -570, -1200);
+            }
             else
+            {
+                print("Respawn Mid");
                 transform.position = new Vector3(-400, -49, -2450);
+            }
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+/*        Timer += Time.deltaTime;
+        if (Timer >= WaitTime)
+        {
+            speed = 150.0f;
+        }*/
+
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
