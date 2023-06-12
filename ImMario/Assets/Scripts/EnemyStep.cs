@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class EnemyStep : MonoBehaviour
 {
-    public CoinManager CoinEvent;
+    public GamePlayManager GamePlayEvent;
 
     // Start is called before the first frame update
     void Start()
     {
-        CoinEvent = GameObject.Find("EventSystem").GetComponent<CoinManager>();
+        GamePlayEvent = GameObject.Find("EventSystem").GetComponent<GamePlayManager>();
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class EnemyStep : MonoBehaviour
         {
             AudioManager.Instance.PlaySFX("stomp");
             Destroy(collision.gameObject);
-            CoinEvent.coin_add();
+            GamePlayEvent.coin_add();
             print("foot collide with Enemy");
         }
     }

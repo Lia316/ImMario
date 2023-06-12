@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Canvas_GameStart : MonoBehaviour
 {
-    public GameStartManager GameStartEvent;
+    public GamePlayManager GamePlayEvent;
 
     void Start()
     {
-        GameStartEvent = GameObject.Find("EventSystem").GetComponent<GameStartManager>();
+        GamePlayEvent = GameObject.Find("EventSystem").GetComponent<GamePlayManager>();
 
-        if (GameStartEvent.GameStart == false)
+        if (GamePlayEvent.GameStart == false)
         {
             gameObject.SetActive(true);
         }
@@ -24,9 +24,7 @@ public class Canvas_GameStart : MonoBehaviour
     {
         if (ARAVRInput.GetDown(ARAVRInput.Button.HandTrigger))
         {
-            GameStartEvent.GameStart = true;
-            Time.timeScale = 1;
-
+            GamePlayEvent.GameStart = true;
             SceneManager.LoadScene("ImMario");
         }
         if (ARAVRInput.GetDown(ARAVRInput.Button.Thumbstick))

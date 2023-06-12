@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class CoinCollide : MonoBehaviour
 {
-    public CoinManager CoinEvent;
+    public GamePlayManager GamePlayEvent;
 
     // Start is called before the first frame update
     void Start()
     {
-        CoinEvent = GameObject.Find("EventSystem").GetComponent<CoinManager>();
+        GamePlayEvent = GameObject.Find("EventSystem").GetComponent<GamePlayManager>();
     }
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class CoinCollide : MonoBehaviour
         if (collision.gameObject.CompareTag("Coin"))
         {
             AudioManager.Instance.PlaySFX("coin");
-            CoinEvent.coin_add();
+            GamePlayEvent.coin_add();
         }
     }
 }

@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class EnemyCollide : MonoBehaviour
 {
-    public LifeManager LifeEvent;
+    public GamePlayManager GamePlayEvent;
 
     // Start is called before the first frame update
     void Start()
     {
-        LifeEvent = GameObject.Find("EventSystem").GetComponent<LifeManager>();
+        GamePlayEvent = GameObject.Find("EventSystem").GetComponent<GamePlayManager>();
     }
 
     // Update is called once per frame
@@ -23,7 +23,7 @@ public class EnemyCollide : MonoBehaviour
         if(collision.collider.CompareTag("Enemy"))
         {
             AudioManager.Instance.PlaySFX("mariodie");
-            LifeEvent.death();
+            GamePlayEvent.death();
             print("body collide with Enemy");
         }
     }

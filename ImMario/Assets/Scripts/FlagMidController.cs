@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class FlagMidController : MonoBehaviour
 {
-    public RespawnManager RespawnEvent;
+    public GamePlayManager GamePlayEvent;
 
     // Start is called before the first frame update
     void Start()
     {
-        RespawnEvent = GameObject.Find("EventSystem").GetComponent<RespawnManager>();
+        GamePlayEvent = GameObject.Find("EventSystem").GetComponent<GamePlayManager>();
     }
 
     // Update is called once per frame
@@ -24,7 +24,7 @@ public class FlagMidController : MonoBehaviour
         {
             //            AudioManager.Instance.PlaySFX("What Sound??");
             print("Mid Save");
-            RespawnEvent.midsave = true;
+            GamePlayEvent.MidSave = true;
         }
     }
 }

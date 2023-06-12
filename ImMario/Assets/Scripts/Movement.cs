@@ -5,9 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     private CharacterController controller;
-    public GameStartManager GameStartEvent;
-    public LifeManager LifeEvent;
-    public RespawnManager RespawnEvent;
+    public GamePlayManager GamePlayEvent;
 
     public float speed = 150.0f;
     public float gravity = -20f;
@@ -18,16 +16,14 @@ public class Movement : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        GameStartEvent = GameObject.Find("EventSystem").GetComponent<GameStartManager>();
-        LifeEvent = GameObject.Find("EventSystem").GetComponent<LifeManager>();
-        RespawnEvent = GameObject.Find("EventSystem").GetComponent<RespawnManager>();
+        GamePlayEvent = GameObject.Find("EventSystem").GetComponent<GamePlayManager>();
 
         // Player 위치 초기화
-        if (GameStartEvent.GameStart == false)
+        if (GamePlayEvent.GameStart == false)
             transform.position = new Vector3(2300, 1000, -1200);
         else
         {
-            if(RespawnEvent.midsave == false)
+            if(GamePlayEvent.MidSave == false)
                 transform.position = new Vector3(2300, -600, -1200);
             else
                 transform.position = new Vector3(-400, -49, -2450);
@@ -72,7 +68,7 @@ public class Movement : MonoBehaviour
         if(this.transform.position.y < -900)
         {
             // Life 감소
-            LifeEvent.death();
+            GamePlayEvent.death();
 
             /*
             // Player 위치 초기화

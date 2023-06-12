@@ -363,7 +363,7 @@
 "Assets/Scripts/Canvas_Status.cs"
 "Assets/Scripts/CoinCollide.cs"
 "Assets/Scripts/CoinController.cs"
-"Assets/Scripts/CoinManager.cs"
+"Assets/Scripts/Delay3s.cs"
 "Assets/Scripts/EnemyCollide.cs"
 "Assets/Scripts/EnemyFollow.cs"
 "Assets/Scripts/EnemyStep.cs"
@@ -374,10 +374,8 @@
 "Assets/Scripts/FlowerAppear.cs"
 "Assets/Scripts/FlowerGet.cs"
 "Assets/Scripts/GameManager.cs"
-"Assets/Scripts/GameStartManager.cs"
-"Assets/Scripts/LifeManager.cs"
+"Assets/Scripts/GamePlayManager.cs"
 "Assets/Scripts/Movement.cs"
-"Assets/Scripts/RespawnManager.cs"
 "Assets/Scripts/Sound.cs"
 -langversion:9.0
 
