@@ -7,12 +7,12 @@ public class Movement : MonoBehaviour
     private CharacterController controller;
     public GamePlayManager GamePlayEvent;
 
-    // 리스폰 화면 나올 동안(3초) Player 움직임 정지
+    // 리스폰 화면 나올 동안(3초) Player 움직임 정지?
 //    float Timer;    int WaitTime;
 
-    public float speed = 150.0f; // 3초 후 150.0f로 Update
+    public float speed = 0.0f; // 3초 후 150.0f로 Update?
     public float gravity = -20f;
-    public float jumpPower = 8f;    // jump
+    public float jumpPower = 8f;    // 점프
     float yVelocity = 0;            // 수직 속도
 
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         GamePlayEvent = GameObject.Find("EventSystem").GetComponent<GamePlayManager>();
-        //        Timer = 0.0f;        WaitTime = 3;
+ //               Timer = 0.0f;        WaitTime = 3;
 
         // Player 위치 초기화
         if (GamePlayEvent.GameStart == false)
@@ -43,7 +43,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-/*        Timer += Time.deltaTime;
+ /*       Timer += Time.deltaTime;
         if (Timer >= WaitTime)
         {
             speed = 150.0f;
@@ -70,9 +70,13 @@ public class Movement : MonoBehaviour
         }
 
         // 점프 구현
-        if(ARAVRInput.GetDown(ARAVRInput.Button.Two, ARAVRInput.Controller.RTouch)) {
-            AudioManager.Instance.PlaySFX("jump");
-            yVelocity = jumpPower;
+        if (ARAVRInput.GetDown(ARAVRInput.Button.Two, ARAVRInput.Controller.RTouch))
+        {
+            if (yVelocity == 0)
+            {
+                AudioManager.Instance.PlaySFX("jump");
+                yVelocity = jumpPower;
+            }
         }
 
         dir.y = yVelocity;
