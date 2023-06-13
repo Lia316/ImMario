@@ -9,4 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/ImMario.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fbe1651514416429a92e2e2d097abb8f, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ada895cbcc3b743eb9818809988306a6, type: 2}
