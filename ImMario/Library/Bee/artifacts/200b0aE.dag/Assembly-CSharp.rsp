@@ -371,11 +371,12 @@
 "Assets/Scripts/FireBallMove.cs"
 "Assets/Scripts/FlagFinalController.cs"
 "Assets/Scripts/FlagMidController.cs"
-"Assets/Scripts/FlowerAppear.cs"
 "Assets/Scripts/FlowerGet.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/GamePlayManager.cs"
+"Assets/Scripts/ItemAppear.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/MushroomGet.cs"
 "Assets/Scripts/SetActive.cs"
 "Assets/Scripts/Sound.cs"
 -langversion:9.0
