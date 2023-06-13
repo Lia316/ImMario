@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638182642840000000
+      ticks: 638222357100000000
     m_Hash: 2891438559
   m_LockFileStatus:
     m_FilePath: /Users/gimjigyeong/Desktop/Developer/POSTECH/Unity/ImMario/ImMario/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638182642840000000
+      ticks: 638222357100000000
     m_Hash: 3956890126
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -323,6 +323,7 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     - 3.0.22
+    - 3.0.24
     compatible:
     - 3.0.15
     - 3.0.16
@@ -331,7 +332,8 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     - 3.0.22
-    verified: 3.0.22
+    - 3.0.24
+    verified: 3.0.24
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -561,6 +563,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -574,6 +577,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -3174,6 +3178,7 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     - 1.9.0
+    - 1.10.1
     compatible:
     - 1.4.2
     - 1.4.3
@@ -3184,6 +3189,7 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     - 1.9.0
+    - 1.10.1
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
