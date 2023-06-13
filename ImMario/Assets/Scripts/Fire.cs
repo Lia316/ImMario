@@ -16,7 +16,7 @@ public class Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool isFire = Input.GetMouseButtonDown(0);
+        bool isFire = ARAVRInput.GetDown(ARAVRInput.Button.IndexTrigger);
         if (isFire) {
             AudioManager.Instance.PlaySFX("fireball");
             GameObject newFireball = Instantiate(fireball, transform.position, Camera.main.transform.rotation);

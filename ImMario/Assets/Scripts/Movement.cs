@@ -49,8 +49,8 @@ public class Movement : MonoBehaviour
             speed = 150.0f;
         }*/
 
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
+        float h = ARAVRInput.GetAxis("Horizontal");
+        float v = ARAVRInput.GetAxis("Vertical");
 
         h = h * speed * Time.deltaTime;
         v = v * speed * Time.deltaTime;
