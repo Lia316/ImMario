@@ -1574,12 +1574,12 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: c7b019110b9b340f9960dc6a49b66d81, type: 3}
   - name: powerupappears
     clip: {fileID: 8300000, guid: 589e60d20c09649298ff1c8810b571f3, type: 3}
-  - name: stageclear
-    clip: {fileID: 8300000, guid: bb6a7b2d2f81245079c68769b7057aaa, type: 3}
+  - name: midflag
+    clip: {fileID: 8300000, guid: c7b019110b9b340f9960dc6a49b66d81, type: 3}
   - name: stomp
     clip: {fileID: 8300000, guid: 36c4221cea1cc4b42842d8758a5026ed, type: 3}
-  - name: worldclear
-    clip: {fileID: 8300000, guid: 2392aab3edc4c4a84aed59963e15ab74, type: 3}
+  - name: stageclear
+    clip: {fileID: 8300000, guid: 73707dae5612f4db583950996676f83d, type: 3}
   - name: breakblock
     clip: {fileID: 8300000, guid: e8bc71d06516e4de9a6095be4456ac5a, type: 3}
   - name: useitem

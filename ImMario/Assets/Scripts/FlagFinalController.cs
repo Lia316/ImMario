@@ -22,7 +22,8 @@ public class FlagFinalController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Head"))
         {
-            //            AudioManager.Instance.PlaySFX("What Sound??");
+            AudioManager.Instance.PauseMusic();
+            AudioManager.Instance.PlaySFX("stageclear");
             print("Game Clear");
             GamePlayEvent.GameClear = true;
         }

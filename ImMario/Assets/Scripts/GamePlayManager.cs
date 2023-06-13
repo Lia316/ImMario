@@ -7,12 +7,12 @@ using UnityEngine.SceneManagement;
 
 public class GamePlayManager : MonoBehaviour
 {
-    public bool GameStart = false; // °ÔÀÓ ½ÃÀÛ   -> true
-    public bool GamePause = false; // ÀÏ½ÃÁ¤Áö    -> true
-    public bool GameClear = false; // °ÔÀÓ Å¬¸®¾î -> true
-    public bool GameOver = false;  // °ÔÀÓ ¿À¹ö   -> true
+    public bool GameStart = false; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½   -> true
+    public bool GamePause = false; // ï¿½Ï½ï¿½ï¿½ï¿½ï¿½ï¿½    -> true
+    public bool GameClear = false; // ï¿½ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ -> true
+    public bool GameOver = false;  // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½   -> true
 
-    public bool MidSave = false;   // Player¿Í mid flag°¡ collide -> true
+    public bool MidSave = false;   // Playerï¿½ï¿½ mid flagï¿½ï¿½ collide -> true
 
     // CoinManager
     public Text Coin_text;
@@ -38,22 +38,22 @@ public class GamePlayManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // timeScale Á¶Àý
+        // timeScale ï¿½ï¿½ï¿½ï¿½
         if (GameStart == false || GamePause == true || GameClear == true || GameOver == true)
             Time.timeScale = 0;
         else
             Time.timeScale = 1;
 
-        // Coin °ü¸®
+        // Coin ï¿½ï¿½ï¿½ï¿½
         Coin_text.text = "Coin : " + coin;
 
-        if (coin >= 10) // 10ÄÚÀÎ È¹µæ ½Ã life +1
+        if (coin >= 10) // 10ï¿½ï¿½ï¿½ï¿½ È¹ï¿½ï¿½ ï¿½ï¿½ life +1
         {
             coin -= 10;
             life_add();
         }
 
-        // Life °ü¸®
+        // Life ï¿½ï¿½ï¿½ï¿½
         if (life > 0)
         {
 /*            if (GameStart == false)
@@ -91,13 +91,13 @@ public class GamePlayManager : MonoBehaviour
     }
 /*    void OnEnable()
     {
-        // ¾À ¸Å´ÏÀúÀÇ sceneLoaded¿¡ Ã¼ÀÎÀ» °Ç´Ù.
+        // ï¿½ï¿½ ï¿½Å´ï¿½ï¿½ï¿½ï¿½ï¿½ sceneLoadedï¿½ï¿½ Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½.
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Ã¼ÀÎÀ» °É¾î¼­ ÀÌ ÇÔ¼ö´Â ¸Å ¾À¸¶´Ù È£ÃâµÈ´Ù.
+        // Ã¼ï¿½ï¿½ï¿½ï¿½ ï¿½É¾î¼­ ï¿½ï¿½ ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È£ï¿½ï¿½È´ï¿½.
         print("GamePlayManager");
         Respawn = GameObject.Find("Canvas_Respawn");
         Pause = GameObject.Find("Canvas_Pause");

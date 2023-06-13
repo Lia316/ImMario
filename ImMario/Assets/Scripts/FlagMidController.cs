@@ -22,7 +22,7 @@ public class FlagMidController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") || collision.gameObject.CompareTag("Head"))
         {
-            //            AudioManager.Instance.PlaySFX("What Sound??");
+            AudioManager.Instance.PlaySFX("midflag");
             print("Mid Save");
             GamePlayEvent.MidSave = true;
         }
